@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Serif", Georgia, serif;
+  font-size: 20px;
+  line-height: 1.35;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.35;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
+.bar-top {
+  color: white;
+  background-color: #666;
+}
+
+.nav {
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.menu {
+  text-align: right;
+}
+
+.menu a {
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: tomato;
+}
+
+.menu > li {
+  display: inline-block;
+  line-height: 1.75;
+}
+
+.logo {
+  float: left;
+  width: 50%;
+}
+
+.menu-right {
+  float: right;
+  width: 50%;
+}
+
+.logo > img {
+  height: 25px;
+}
+
+.main {
+  padding: 1rem;
+}
+
+@media (min-width: 980px) {
+  .blog {
+    overflow: auto;
+  }
+
+  .content {
+    float: left;
+    width: 80%;
+  }
+
+  .footer {
+    float: left;
+    width: 20%;
+  }
+}
